@@ -1,0 +1,28 @@
+telegram-ai-gf-bot/
+├─ backend/
+│  ├─ app/
+│  │  ├─ main.py
+│  │  ├─ config.py
+│  │  ├─ database.py
+│  │  ├─ models.py
+│  │  ├─ schemas.py
+│  │  ├─ deps.py
+│  │  ├─ services/
+│  │  │  ├─ llm_service.py
+│  │  │  ├─ image_service.py
+│  │  │  ├─ limits_service.py
+│  │  │  └─ stripe_service.py
+│  │  ├─ routers/
+│  │  │  ├─ users.py
+│  │  │  ├─ chat.py
+│  │  │  ├─ images.py
+│  │  │  └─ webhooks.py
+├─ bot/
+│  ├─ bot.py
+│  ├─ keyboards.py
+│  └─ state.py
+├─ migrations/
+│  └─ 001_init.sql
+├─ .env.example
+├─ requirements.txt
+└─ README.md
