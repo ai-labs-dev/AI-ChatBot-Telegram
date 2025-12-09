@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy==2.0.36
+psycopg2-binary
+python-dotenv
+pydantic
+pydantic-settings
+httpx
+stripe
+groq
+python-telegram-bot==21.6
