@@ -1,0 +1,28 @@
+# Backend / FastAPI
+APP_ENV=development
+APP_PORT=8000
+
+# Supabase Postgres
+DATABASE_URL=postgresql://postgres:password@host:5432/postgres
+
+# Groq (LLM)
+GROQ_API_KEY=your_groq_api_key_here
+GROQ_MODEL=llama-3.3-70b-versatile
+
+# Stripe
+STRIPE_SECRET_KEY=sk_test_xxxxx
+STRIPE_WEBHOOK_SECRET=whsec_xxxxx
+STRIPE_PRICE_UNLIMITED_CHAT=price_xxxxx
+STRIPE_PRICE_UNLIMITED_ALL=price_yyyyy
+
+# Telegram
+TELEGRAM_BOT_TOKEN=123456:ABCDEF
+BACKEND_BASE_URL=http://localhost:8000
+
+# RunPod / ComfyUI
+RUNPOD_API_KEY=rp_xxxxx
+RUNPOD_ENDPOINT=https://api.runpod.ai/v2/YOUR_ENDPOINT_ID/run
+COMFY_WORKFLOW_ID_FLUX=flux_workflow_id
+COMFY_WORKFLOW_ID_SDXL=sdxl_workflow_id
+COMFY_WORKFLOW_ID_ANIME=anime_workflow_id
+COMFY_WORKFLOW_ID_REALISTIC=realistic_workflow_id
