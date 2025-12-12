@@ -6,3 +6,5 @@ groq
 stripe
 python-dotenv
 httpx
+replicate
+python-multipart
